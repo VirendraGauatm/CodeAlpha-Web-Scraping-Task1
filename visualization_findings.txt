@@ -1,0 +1,35 @@
+TASK 3: DATA VISUALIZATION
+
+Project: Books Data Analysis
+Dataset: books_data.csv
+Total Records: 100
+Tools Used: Python, Pandas, Matplotlib
+
+
+1. Book Rating Distribution
+The dataset contains books across all five rating categories.
+Three-star and one-star books have the highest counts, with 22 books each.
+
+2. Book Price Distribution
+Book prices range from £10.16 to £58.11.
+The average book price is approximately £34.56.
+Most books are distributed across the middle price ranges.
+
+3. Average Book Price by Rating
+Three-star books have the highest average price (£36.84).
+Five-star books have the lowest average price (£30.01).
+
+4. Book Rating vs Price
+A box plot was used to compare price distributions across all five rating categories.
+It displays the median, quartiles, and price variation for each rating.
+
+5. Top 10 Most Expensive Books
+A horizontal bar chart identifies the ten most expensive books in the dataset.
+The highest-priced book costs £58.11.
+
+6. Project Limitations
+
+- The analysis uses only the first five pages of the website.
+- The dataset contains 100 books, so it may not represent the entire website.
+- All 100 books were marked as in stock, so availability comparisons were not possible.
+- The relationship between book ratings and prices does not prove that ratings influence prices.

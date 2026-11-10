@@ -1,0 +1,35 @@
+# Task 2: Exploratory Data Analysis (EDA)
+
+## 1. Dataset Overview
+- Total records: 100 books
+- Total columns: 4
+- Columns: Title, Price, Rating, Availability
+
+## 2. Data Quality
+- Missing values: 0
+- Duplicate records: 0
+- All book titles are unique.
+- All 100 books are marked as In stock.
+
+## 3. Price Analysis
+- Average price: £34.56
+- Median price: £34.78
+- Minimum price: £10.16
+- Maximum price: £58.11
+- Standard deviation: £14.64
+- No price outliers were identified using the IQR method.
+
+## 4. Rating Analysis
+- Three-star and one-star books have the highest counts (22 each).
+- Four-star books have the lowest count (18).
+
+## 5. Price by Rating
+- Three-star books have the highest average price (£36.84).
+- Five-star books have the lowest average price (£30.01).
+- Higher ratings do not correspond to higher average prices in this sample.
+
+## 6. Conclusion
+The dataset contains 100 book records with no missing values or duplicate rows. Book prices range from £10.16 to £58.11. The rating distribution is relatively balanced. All books are marked as in stock, so availability comparisons are not possible.
+
+## 7. Limitation
+The analysis covers only the first five pages (100 books) scraped from Books to Scrape. Findings should not be generalized to the entire website.
